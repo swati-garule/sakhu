@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./news_card.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <p class="para">Create News Card</p>
+        <div class="heading">Heading</div>
+        <input type="text" class="textbox1" id="one">
+        <div class="date">Date</div>
+        <input type="date" class="textbox2">
+        <div class="description">Description</div>
+        <input type="textarea" class="textbox3">
+        <button class="submit">Submit</button>
+        <button class="preview">Preview</button>
+        <div class="upload">
+            <div class="para1">Upload Image</div>
+            <div class="box">
+            <img src="./assets-news_card/arrow (2).png" alt="" class="arrow"></div>
+            <button class="upload1"><input type="file" style="opacity: 0;">Upload File</button>
+        </div>
+        <p class="card">Card Preivew</p>
+        <div class="cardPreview">
+            
+        </div>
+        <p class="para2">News Card List</p>
+        <table class="table">
+        <thead>
+            <tr class="theadrow">
+                <th class="col1">Sr.No</th>
+                <th class="col2">Heading</th>
+                <th class="col3">Preview</th>
+                <th class="col4">Action</th>
+            </tr>
+        </thead>
+        <tbody class="tbody">
+        </tbody>
+    </table>
+    </div>
+    
+</section>
+ <script src="./news_card.js"></script>
+</body>
+</html>
